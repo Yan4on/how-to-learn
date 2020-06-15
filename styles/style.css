@@ -372,6 +372,7 @@ footer {
 
 .footer__column-links {
     padding-bottom: 16px;
+
 }
 
 .footer__column-links a {
@@ -381,6 +382,7 @@ footer {
     font-size: 18px;
     display: flex;
     align-items: center;
+
 }
 .footer__social-icon {
     height: 16px;
@@ -388,5 +390,6 @@ footer {
     margin-top: -1px;
     margin-right: 10px;
     background-repeat: no-repeat;
+   
 }
 
