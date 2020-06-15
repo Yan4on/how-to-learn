@@ -107,7 +107,7 @@ h1,h2,h3,h4,h5,h6,p {
     justify-content: space-around;
 }
 
-.description__two-columns {
+.two-columns {
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -386,6 +386,7 @@ footer {
     height: 16px;
     width: 16px;
     margin-right: 10px;
+    background-repeat: no-repeat;
 }
 
 .facebook_icon {
