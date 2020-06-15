@@ -329,6 +329,7 @@ footer {
     width: 90%;
     min-width: 711px;
     flex-basis: auto;
+
 }
 
 .footer__column {
@@ -390,6 +391,6 @@ footer {
     margin-top: -1px;
     margin-right: 10px;
     background-repeat: no-repeat;
-   
+
 }
 
