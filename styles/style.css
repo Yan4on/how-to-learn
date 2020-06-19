@@ -54,7 +54,7 @@ p {
   width: 730px;
   font-size: 102px;
   line-height: 96px;
-  font-weight: 600;
+  font-weight: 700;
   position: absolute;
   left: 64px;
 }
@@ -125,7 +125,7 @@ p {
 }
 
 .two-columns__span-accent {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* digits*/
@@ -139,7 +139,7 @@ p {
 .section-title {
   text-align: center;
   width: 60%;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 69px;
   font-size: 60px;
 }
@@ -175,7 +175,7 @@ p {
   padding-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .table__text {
@@ -214,7 +214,7 @@ p {
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
-  font-weight: 600;
+  font-weight: 700;
   z-index: 1;
 }
 
