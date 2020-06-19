@@ -179,13 +179,9 @@ p {
 }
 
 .table__text {
-  padding-bottom: 20px;
   line-height: 1.2;
   font-size: 18px;
-}
-
-.table__text h4 {
-  font-weight: 300;
+  padding-bottom: 20px;
 }
 
 /*feinman*/
