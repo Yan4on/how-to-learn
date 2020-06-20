@@ -1,5 +1,5 @@
 h1,
-/*h2,*/
+h2
 h3,
 h4,
 h5,
@@ -47,7 +47,7 @@ p {
   height: 32px;
   align-self: flex-start;
   margin-top: 30px;
-  margin-left: 64px;
+  position: absolute;
 }
 
 .header__title {
@@ -55,8 +55,7 @@ p {
   font-size: 102px;
   line-height: 96px;
   font-weight: 700;
-  position: absolute;
-  left: 64px;
+  margin-left: 64px;
 }
 
 .header__subtitle {
@@ -95,7 +94,8 @@ p {
 
 /* description */
 .description {
-  padding: 100px 0;
+  padding-bottom: 70px;
+  padding-top: 100px;
   display: flex;
   justify-content: space-around;
 }
@@ -130,7 +130,7 @@ p {
 
 /* digits*/
 .digits {
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -142,6 +142,8 @@ p {
   font-weight: 700;
   line-height: 69px;
   font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .section-subtitle {
@@ -176,6 +178,8 @@ p {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .table__text {
@@ -211,6 +215,8 @@ p {
   font-size: 120px;
   font-weight: 700;
   z-index: 1;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .feynman__subtitle {
@@ -244,29 +250,36 @@ p {
 
 .section-title_theme_dark {
   color: white;
-  padding-bottom: 20px;
   padding-top: 90px;
   z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  padding-bottom: 80px;
   z-index: 1;
 }
 
-.table_row_theme_dark {
-  padding-top: 0;
-}
-
-.table_row_theme_dark_2 {
+.table__row_theme_dark {
+  
   padding-top: 80px;
 }
 
-.table_row_theme_dark .table__text_theme_dark {
+.table__heading_theme_dark {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.table__row_theme_dark_2 {
+  padding-top: 80px;
+}
+
+.table__row_theme_dark .table__text_theme_dark {
   padding-bottom: 0;
 }
 
+.table__text_theme_dark {
+  padding-bottom: 0;
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -275,7 +288,7 @@ p {
 
 .kaufman__triangle {
   position: absolute;
-  bottom: -130px;
+  bottom: -170px;
   right: -210px;
   width: 877px;
   height: 877px;
