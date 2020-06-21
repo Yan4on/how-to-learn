@@ -45,9 +45,9 @@ p {
   background-image: url("../images/logo_place_header.svg");
   width: 183px;
   height: 32px;
-  align-self: flex-start;
   margin-top: 30px;
   position: absolute;
+  top: 0;
 }
 
 .header__title {
@@ -328,14 +328,11 @@ footer {
   justify-content: space-between;
 }
 
-.footer__column_content_copyright > div:last-child {
-  padding-top: 18px;
-  padding-bottom: 18px;
-}
-
 .footer__author {
   line-height: 25px;
   font-size: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .logo_place_footer {
@@ -352,12 +349,14 @@ footer {
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
 }
 
 .footer__column-links {
   padding-left: 0;
   padding-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 16px;
   list-style-type: none;
 }
 
@@ -379,4 +378,10 @@ footer {
   font-size: 18px;
   list-style-type: none;
   align-items: center;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
 }
