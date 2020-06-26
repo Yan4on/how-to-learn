@@ -8,6 +8,24 @@ p {
   margin: 0;
   padding: 0;
 }
+/*keyframes-------------------------------------*/
+@keyframes rotation_animation {
+  from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*Mix-------------------------------------*/
+.rotation_animation {
+  animation-name: rotation_animation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
 
 /*body-> page*/
 .page {
@@ -30,6 +48,7 @@ p {
   display: flex;
   align-items: center;
   background: #f2f2f2;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
@@ -128,6 +147,74 @@ p {
 .two-columns__span-accent {
   font-weight: 700;
 }
+
+/*techniques*----------------------------------*/
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  border: 2px solid burlywood;
+  
+}
+
+.section-title_techniques {
+  text-align: center;
+  border: 2px solid burlywood;
+}
+
+.section-subtitle_techniques{
+  border: 2px solid burlywood;
+}
+
+.cards {
+  width: 920px;
+  border: 2px solid burlywood;
+}
+
+.cards__item {
+  border: 2px solid burlywood;
+}
+
+.cards__image {
+  border: 2px solid burlywood;
+}
+
+.cards__title {
+  border: 2px solid burlywood;
+}
+
+.cards__descriptions {
+  border: 2px solid burlywood;
+}
+
+/*video------------------*/
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid burlywood;
+}
+
+.section-title_video {
+  border: 2px solid burlywood;
+}
+
+.section-subtitle_video {
+  border: 2px solid burlywood;
+
+}
+
+.iframes {
+  display: flex;
+}
+
+.video__iframe {
+  border: 2px solid burlywood;
+  height: 316px;
+  width: 515px;
+}
+
 
 /* digits*/
 .digits {
