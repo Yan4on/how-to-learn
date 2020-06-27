@@ -125,6 +125,10 @@ p {
   justify-content: space-between;
 }
 
+.two-columns:last-of-type {
+  padding-top: 160px;
+}
+
 .two-columns__brief {
   color: #2f80ed;
   width: 175px;
@@ -153,39 +157,44 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  border: 2px solid burlywood;
-  
 }
 
 .section-title_techniques {
   text-align: center;
-  border: 2px solid burlywood;
 }
 
 .section-subtitle_techniques{
-  border: 2px solid burlywood;
 }
 
 .cards {
   width: 920px;
-  border: 2px solid burlywood;
+  display: flex;
+  flex-wrap: wrap; 
 }
 
 .cards__item {
-  border: 2px solid burlywood;
+  width: 240px;
+  padding-right: 100px;
 }
 
+.cards__item:nth-child(3n+3) {
+  padding-right: 0px;
+}
+
+
 .cards__image {
-  border: 2px solid burlywood;
+  border-radius: 100%;
+  width: 160px;
+  margin: 60px 40px 43px 40px;
 }
 
 .cards__title {
-  border: 2px solid burlywood;
+  text-align: center;
+  padding-bottom: 16px;
 }
 
 .cards__descriptions {
-  border: 2px solid burlywood;
+  text-align: center;
 }
 
 /*video------------------*/
@@ -193,16 +202,14 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid burlywood;
 }
 
 .section-title_video {
-  border: 2px solid burlywood;
+  padding-top: 100px;
 }
 
 .section-subtitle_video {
-  border: 2px solid burlywood;
-
+  padding-bottom: 50px;
 }
 
 .iframes {
@@ -210,11 +217,14 @@ p {
 }
 
 .video__iframe {
-  border: 2px solid burlywood;
   height: 316px;
   width: 515px;
+  padding-right: 20px;
 }
 
+.video__iframe:last-of-type {
+  padding-right: 0;
+}
 
 /* digits*/
 .digits {
