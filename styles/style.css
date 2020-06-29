@@ -1,3 +1,7 @@
+/*  
+
+
+
 h1,
 h2,
 h3,
@@ -38,7 +42,7 @@ p {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-/* header */
+/* header  
 .header {
   height: 100vh;
   min-height: 600px;
@@ -48,7 +52,7 @@ p {
   align-items: center;
   background: #f2f2f2;
   overflow: hidden;
-  /* выше установили ограничения для секции */
+   выше установили ограничения для секции 
 }
 
 .logo {
@@ -105,7 +109,7 @@ p {
   position: absolute;
   z-index: 1;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента 
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -113,9 +117,10 @@ p {
   right: 0;
   background: #2f80ed;
   position: absolute;
-}
+}*/
 
 /* description */
+/*  
 .description {
   padding-top: 100px;
   display: flex;
@@ -155,6 +160,7 @@ p {
   font-weight: 700;
 }
 
+*/
 /*techniques*----------------------------------*/
 .techniques {
   display: flex;
@@ -163,10 +169,12 @@ p {
 }
 
 .section-title_techniques {
+  /*Переместить с нужный блок*----------------------------------*/
   text-align: center;
 }
 
 .section-subtitle_techniques {
+  /*Переместить с нужный блок*----------------------------------*/
 }
 
 .cards {
@@ -228,12 +236,11 @@ p {
   padding-right: 0;
 }
 
-
 /* oakley ----------------*/
 .oakley {
-  padding-top: 100px;
+  padding-top: 160px;
   display: flex;
-  justify-content: space-around;  
+  justify-content: space-around;
 }
 
 /* digits*/
@@ -245,6 +252,7 @@ p {
 }
 
 .section-title {
+  /* Закануть другие элементы с модификаторами */
   text-align: center;
   width: 60%;
   font-weight: 700;
@@ -351,7 +359,8 @@ p {
 .khan__book-pic {
   height: 620px;
   width: 608px;
-  padding-right: 48px;
+  margin-right: 48px;
+  overflow: hidden;
 }
 
 .khan__buy-link {
@@ -462,6 +471,7 @@ p {
 .table__text_theme_dark {
   padding-bottom: 0;
 }
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;

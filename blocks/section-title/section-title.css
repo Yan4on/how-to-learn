@@ -1,0 +1,16 @@
+
+@import url('./_video/section-title_video.css');
+@import url('./_theme/section-title_theme_dark.css');
+@import url('./_techniques/section-title_techniques.css');
+
+
+.section-title {
+    text-align: center;
+    width: 60%;
+    font-weight: 700;
+    line-height: 69px;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 100px;
+  }

@@ -1,0 +1,10 @@
+.footer__column_content_social {
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 18px;
+    list-style-type: none;
+    align-items: center;
+  }

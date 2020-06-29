@@ -1,0 +1,11 @@
+
+@import url('./_theme/row_theme_dark.css');
+@import url('./_theme/row_theme_dark_2.css');
+
+
+.table__row {
+    width: 100%;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
