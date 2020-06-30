@@ -1,0 +1,10 @@
+
+@import url('./__iframe/video__iframe.css');
+
+
+.video {
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
