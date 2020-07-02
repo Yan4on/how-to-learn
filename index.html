@@ -20,11 +20,11 @@
         <a class="header__link" href="#"> Узнать &#8594;</a>
       </p>
       <img src="./images/header-image.png" class="header__main-illustration" alt="картинка" />
-      <div class="header__square-pic rotation_animation"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -45,12 +45,12 @@
               техники применяются на примере обучения в Практикуме.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="techniques">
-        <h2 class="section-title section-title_techniques">Техники обучения</h2>
-        <p class="section-subtitle section-subtitle_techniques">Пять практик от Барбары Оакли</p>
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <div class="cards">
           <div class="cards__item">
             <img class="cards__image" src="./images/cards-attention.png" alt="Картинка блока">
@@ -70,42 +70,33 @@
             <p class="cards__descriptions">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-question.png">
+            <img class="cards__image" src="./images/cards-question.png" alt="Картинка блока">
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__descriptions">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
               волнует.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-competence.png">
+            <img class="cards__image" src="./images/cards-competence.png" alt="Картинка блока">
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__descriptions">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
               владеете новой темой.</p>
-          </div>
-          <div class="cards__item">
-            <img class="cards__image">
-            <h3 class="cards__title"></h3>
-            <p class="cards__descriptions"></p>
           </div>
         </div>
       </section>
 
       <section class="video">
-        <h2 class="section-title section-title_video">Видео на TED</h2>
-        <p class="section-subtitle section-subtitle_video">Для тех,кто любит прокрастинировать</p>
-        <div class="iframes">
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+        <h2 class="section-title">Видео на TED</h2>
+        <p class="section-subtitle">Для тех,кто любит прокрастинировать</p>
+        <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 
       <section class="oakley">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -118,7 +109,7 @@
               ясно с первого взгляда.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="feynman">
@@ -206,7 +197,7 @@
       </section>
 
       <section class="kaufman">
-        <img class="kaufman__triangle rotation_animation" src="./images/kaufman-triangle.svg" alt="Треугольник" />
+        <img class="kaufman__triangle rotation" src="./images/kaufman-triangle.svg" alt="Треугольник" />
         <h2 class="section-title section-title_theme_dark">
           Принципы обучения
         </h2>
@@ -286,11 +277,21 @@
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-      <div class="logo-zone">
-        <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="логотип Арзама">
-        <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="логотип н+1">
-        <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="логотип стрелка">
-        <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="логотип полка">
+      <div class="resources__logo-zone">
+        <a href="#">
+          <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="логотип Арзамаc">
+        </a>
+        <a href="#">
+          <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="логотип Н-1">
+        </a>
+        <a href="#">
+          <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="логотип Стрелка">
+        </a>
+        <a href="#">
+          <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="логотип Полка">
+        </a>
+
+
       </div>
     </section>
 
@@ -298,7 +299,8 @@
       <div class="footer__columns">
         <div class="footer__container-half">
           <div class="footer__column footer__column_content_copyright">
-            <img src="./images/logo_place_footer.svg" alt="лого ЯндексПрактикум в подвале" class="logo logo_place_footer">
+            <img src="./images/logo_place_footer.svg" alt="лого ЯндексПрактикум в подвале"
+              class="logo logo_place_footer">
             <div>
               <p class="footer__author">&#169; 2019. Виктор Абанькин</p>
             </div>
@@ -310,10 +312,10 @@
             <div class="footer__column footer__column_content_info">
               <h3 class="footer__column-heading">О Практикуме</h3>
               <nav>
-                <ul class="footer__column-links">
-                  <li><a href="#">Главная</a></li>
-                  <li><a href="#">Концепция</a></li>
-                  <li><a href="#">Наставники</a></li>
+                <ul>
+                  <li><a class="footer__column-links" href="#">Главная</a></li>
+                  <li><a class="footer__column-links" href="#">Концепция</a></li>
+                  <li><a class="footer__column-links" href="#">Наставники</a></li>
                 </ul>
               </nav>
             </div>
@@ -324,20 +326,20 @@
                 Соцсети
               </h3>
               <nav>
-                <ul class="footer__column-links">
+                <ul>
                   <li>
-                    <a href="https://ru-ru.facebook.com/yandex.praktikum/"><img class="footer__social-icon"
-                        src="./images/facebook_color_white.svg" alt="Facebook" />
+                    <a class="footer__column-links" href="https://ru-ru.facebook.com/yandex.praktikum/"><img class="footer__social-icon"
+                        src="./images/facebook_color_white.svg" alt="Иконка Facebook" />
                       Facebook</a>
                   </li>
                   <li>
-                    <a href="https://vk.com/yandex.praktikum"><img class="footer__social-icon"
-                        src="./images/vk_color_white.svg" alt="Вконтакте" />
+                    <a class="footer__column-links" href="https://vk.com/yandex.praktikum"><img class="footer__social-icon"
+                        src="./images/vk_color_white.svg" alt="Иконка Вконтакте" />
                       Вконтакте</a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/yndx.praktikum/"><img class="footer__social-icon"
-                        src="./images/instagram_color_white.svg" alt="instagram" />
+                    <a class="footer__column-links" href="https://www.instagram.com/yndx.praktikum/"><img class="footer__social-icon"
+                        src="./images/instagram_color_white.svg" alt="Иконка instagram" />
                       Instagram</a>
                   </li>
                 </ul>

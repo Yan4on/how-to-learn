@@ -4,3 +4,8 @@
     padding-top: 80px;
     padding-bottom: 217px;
   }
+
+  .resources__logo:hover {
+    transition: linear 1s;
+    opacity: 0.5;
+  }

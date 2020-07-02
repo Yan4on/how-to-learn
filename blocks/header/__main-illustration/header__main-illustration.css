@@ -5,4 +5,6 @@
     right: 0;
     position: absolute;
     z-index: 1;
+    object-position: right bottom;
+    object-fit: contain;
   }
