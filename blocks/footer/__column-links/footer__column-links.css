@@ -9,8 +9,3 @@
     align-items: center;
     margin: 20px 0 16px 0;
   }
-
-  .footer__column-links:hover {
-    transition: linear 1s;
-    opacity: 0.5;
-  }
