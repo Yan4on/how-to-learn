@@ -2,4 +2,9 @@
     width: 200px;
     color: white;
     margin-right: 0;
+    margin: 80px 0;
+  }
+
+  .table__cell_theme_dark:nth-child(1n+6) {
+    margin: 0;
   }

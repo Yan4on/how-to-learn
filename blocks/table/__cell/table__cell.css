@@ -5,6 +5,9 @@
 .table__cell {
   width: 250px;
   text-align: left;
+  margin-bottom:60px;
 }
 
-  
+.table__cell:nth-child(1n+5) {
+  margin-bottom:0;
+}

@@ -1,8 +1,7 @@
 .resources__logo {
     width: 270px;
     height: 38px;
-    padding-top: 80px;
-    padding-bottom: 217px;
+    margin: 80px auto 217px auto;
   }
 
   .resources__logo:hover {

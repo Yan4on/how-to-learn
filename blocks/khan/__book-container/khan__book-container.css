@@ -1,3 +1,4 @@
 .khan__book-container {
     display: flex;
+    transform: translate(0px, 68px);
   }
